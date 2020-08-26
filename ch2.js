@@ -5,10 +5,10 @@ function deretKaskus(n) {
         // console.log(i)
         if (i % 5 == 0 && i % 6 == 0) {
             arr.push('KASKUS')
-        }else if (i % 5 == 0) {
+        } else if (i % 5 == 0) {
             arr.push('KAS')
 
-        }else if (i % 6 == 0) {
+        } else if (i % 6 == 0) {
             arr.push('KUS')
         } else {
             arr.push(i)
@@ -18,3 +18,5 @@ function deretKaskus(n) {
 
 }
 console.log(deretKaskus(10));
+
+
